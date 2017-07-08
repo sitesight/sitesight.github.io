@@ -1,0 +1,61 @@
+.h1{
+    font-size:45px;
+}
+/* The only rule that matters */
+.video-div { 
+    position: absolute; 
+    z-index: -1; 
+    top: 0px; 
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: none;
+    height:70%;
+}
+
+#video-background{
+    margin: auto;
+    position: absolute; 
+    z-index: -1; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    visibility: visible; 
+    width: auto; 
+    height: auto;
+}
+.bgvid{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100vw;
+}
+
+.bgvid.inner{
+  top:calc(-50vh + 200px);
+  left:calc(-50vw + 200px);
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter:blur(10px);
+}
+
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}

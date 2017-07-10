@@ -12,9 +12,9 @@
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-image: none;
-    height:70%;
+    /*background-position: 50% 50%;*/
+    background-color: black;
+    max-height:500px;
 }
 
 #video-background{
